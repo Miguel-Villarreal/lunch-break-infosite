@@ -46,6 +46,8 @@ p {
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     display: block; }
+  .main-color-block .main-image {
+    width: 100%; }
 
 .white-block {
   margin: 6em 0; }
