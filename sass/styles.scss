@@ -1,0 +1,185 @@
+/* sass --watch sass:css */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+
+$main-color: #FF6243;
+$secondary-color: #637076;
+$terceary-color: #37474E;
+$text-color: #37474E;
+$almost-white: #f2f2f2;
+$almost-black: #050505; //Este color se usa para el bloque del footer
+$main-font: 'Open Sans', sans-serif;
+$title-font: 'Roboto Slab', serif;
+
+body {
+  height:100%;
+  width:100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: $title-font;
+}
+
+p {
+  font-family: $main-font;
+}
+
+// Nav and main block
+.navbar-lb {
+  background: $main-color;
+  height: 8em;
+
+  .logo {
+    width: 12.250em;
+  }
+  .navbar-aling {
+    float: right;
+  }
+
+  li {
+    margin-top: 2.25em;
+  }
+
+  a {
+    color: $almost-white;
+  }
+
+  a:hover {
+    background-color: rgba(0, 0, 0, 0)!important;
+    color: darken($almost-white, 10%);
+  }
+}
+
+.main-color-background {
+  background: $main-color;
+
+  p {
+    color: $almost-white;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 1.5em 0 2em 0;
+  }
+}
+
+.main-color-block {
+  margin: 6em 0;
+
+  h1, h2 {
+    color: $almost-white;
+  }
+
+  .btn-lb {
+    color: $almost-white;
+    background-color: $secondary-color;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    display: block;
+  }
+}
+
+//Video and product text
+.white-block {
+  margin: 6em 0;
+
+  .video {
+    margin-bottom: 3em;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+    color: $text-color;
+  }
+
+  p {
+    color: $text-color;
+    text-align: justify;
+  }
+}
+
+// Features
+.secondary-color-background {
+  background: $secondary-color;
+}
+
+.secondary-color-block {
+  margin: 6em 0;
+
+  h2, h3, p {
+    color: $almost-white;
+  }
+
+  h3 {
+    margin-bottom: 1em;
+  }
+  p {
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .second-title {
+    margin: 1.5em;
+  }
+
+  .btn-lb {
+    color: $almost-white;
+    background-color: $main-color;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+  }
+  .btn-lb:hover {
+    background-color: darken($main-color, 5%);
+  }
+}
+
+//Footer
+.terceary-color-background {
+  background: $terceary-color;
+}
+
+.footer-block {
+  margin: 6em 0;
+
+  p, h4 {
+    color: $almost-white;
+    font-weight: 300;
+  }
+
+  p a {
+    color: $almost-white;
+  }
+
+  .footer-logo img {
+    width: 12.250em;
+  }
+
+  .footer-icons {
+    display: inline;
+    float: left;
+    @media (max-width:767px) {
+      margin-left: 0;
+      margin-top: 1em;
+    }
+    @media (min-width:768px) and (max-width: 991px) {
+      margin-left: 0;
+      margin-top: 1em;
+    }
+
+    li {
+      float: left;
+      list-style: none;
+      padding: 0 1em 1em 0;
+    }
+
+    img {
+      width: 3em;
+    }
+  }
+
+  .footer-copyright {
+    margin-top: 3em;
+  }
+}
