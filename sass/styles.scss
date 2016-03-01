@@ -46,6 +46,7 @@ p {
 
   a:hover {
     background-color: rgba(0, 0, 0, 0)!important;
+    border-bottom: 3px solid $almost-white;
     color: darken($almost-white, 10%);
   }
 }

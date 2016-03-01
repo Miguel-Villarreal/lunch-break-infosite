@@ -24,6 +24,7 @@ p {
     color: #f2f2f2; }
   .navbar-lb a:hover {
     background-color: transparent !important;
+    border-bottom: 3px solid #f2f2f2;
     color: #d9d9d9; }
 
 .main-color-background {
