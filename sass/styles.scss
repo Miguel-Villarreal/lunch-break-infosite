@@ -42,12 +42,12 @@ p {
 
   a {
     color: $almost-white;
+    font-family: $title-font;
   }
 
   a:hover {
     background-color: rgba(0, 0, 0, 0)!important;
     border-bottom: 3px solid $almost-white;
-    color: darken($almost-white, 10%);
   }
 }
 
@@ -71,11 +71,18 @@ p {
 
   .btn-lb {
     color: $almost-white;
-    background-color: $secondary-color;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
+    background-color: darken($main-color, 30%);
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
     display: block;
+    font-family: $title-font;
+    font-weight: 300;
+    padding: 10px 26px;
+  }
+
+  .btn-lb:hover {
+    background-color: lighten($main-color, 10%);
   }
 
   .main-image {
@@ -98,13 +105,16 @@ p {
 
   p {
     color: $text-color;
-    text-align: justify;
   }
 }
 
 // Features
 .secondary-color-background {
   background: $secondary-color;
+}
+
+.secondary-color-background-bis {
+  background: darken($secondary-color, 5%);
 }
 
 .secondary-color-block {
@@ -129,11 +139,14 @@ p {
   .btn-lb {
     color: $almost-white;
     background-color: $main-color;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
     display: block;
+    font-family: $title-font;
+    font-weight: 300;
     margin: 0 auto;
+    padding: 10px 26px;
   }
   .btn-lb:hover {
     background-color: darken($main-color, 5%);
@@ -182,9 +195,25 @@ p {
     img {
       width: 3em;
     }
+    svg: hover {
+      fill: black;
+    }
   }
 
   .footer-copyright {
     margin-top: 3em;
+  }
+
+  .innku-link {
+    font-size: 0.75em;
+    color: darken($almost-white, 30%);
+    margin-top: 10px;
+
+    a {
+      color: #76bd1d;
+    }
+    a:hover {
+      color: darken(#76bd1d, 5%);
+    }
   }
 }

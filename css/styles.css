@@ -21,11 +21,11 @@ p {
   .navbar-lb li {
     margin-top: 2.25em; }
   .navbar-lb a {
-    color: #f2f2f2; }
+    color: #f2f2f2;
+    font-family: "Roboto Slab", serif; }
   .navbar-lb a:hover {
     background-color: transparent !important;
-    border-bottom: 3px solid #f2f2f2;
-    color: #d9d9d9; }
+    border-bottom: 3px solid #f2f2f2; }
 
 .main-color-background {
   background: #FF6243; }
@@ -41,11 +41,16 @@ p {
     color: #f2f2f2; }
   .main-color-block .btn-lb {
     color: #f2f2f2;
-    background-color: #637076;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    display: block; }
+    background-color: #a91c00;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    display: block;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    padding: 10px 26px; }
+  .main-color-block .btn-lb:hover {
+    background-color: #ff8d76; }
   .main-color-block .main-image {
     width: 100%; }
 
@@ -57,11 +62,13 @@ p {
     margin-bottom: 1em;
     color: #37474E; }
   .white-block p {
-    color: #37474E;
-    text-align: justify; }
+    color: #37474E; }
 
 .secondary-color-background {
   background: #637076; }
+
+.secondary-color-background-bis {
+  background: #576368; }
 
 .secondary-color-block {
   margin: 6em 0; }
@@ -77,11 +84,14 @@ p {
   .secondary-color-block .btn-lb {
     color: #f2f2f2;
     background-color: #FF6243;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
     display: block;
-    margin: 0 auto; }
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 10px 26px; }
   .secondary-color-block .btn-lb:hover {
     background-color: #ff4d2a; }
 
@@ -99,7 +109,9 @@ p {
     width: 12.250em; }
   .footer-block .footer-icons {
     display: inline;
-    float: left; }
+    float: left;
+    svg: hover;
+      svg-fill: black; }
     @media (max-width: 767px) {
       .footer-block .footer-icons {
         margin-left: 0;
@@ -116,5 +128,13 @@ p {
       width: 3em; }
   .footer-block .footer-copyright {
     margin-top: 3em; }
+  .footer-block .innku-link {
+    font-size: 0.75em;
+    color: #a6a6a6;
+    margin-top: 10px; }
+    .footer-block .innku-link a {
+      color: #76bd1d; }
+    .footer-block .innku-link a:hover {
+      color: #68a71a; }
 
 /*# sourceMappingURL=styles.css.map */
