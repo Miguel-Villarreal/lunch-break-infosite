@@ -83,7 +83,7 @@ p {
     margin: 1.5em; }
   .secondary-color-block .btn-lb {
     color: #f2f2f2;
-    background-color: #FF6243;
+    background-color: #a91c00;
     border-radius: 24px;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
@@ -93,7 +93,7 @@ p {
     margin: 0 auto;
     padding: 10px 26px; }
   .secondary-color-block .btn-lb:hover {
-    background-color: #ff4d2a; }
+    background-color: #ff8d76; }
 
 .terceary-color-background {
   background: #37474E; }
