@@ -1,7 +1,5 @@
 /*$(function(){
-    $('.navbar-lb').data('size','big');
 });
-
 $(window).scroll(function(){
     if($(document).scrollTop() > 0)
     {

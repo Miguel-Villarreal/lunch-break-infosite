@@ -18,7 +18,10 @@ p {
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none; }
   .navbar-lb .navbar-toggle {
     border-color: #bfbfbf;
     background: white; }
@@ -27,18 +30,22 @@ p {
   .navbar-lb .navbar-collapse {
     border-color: #FF6243 !important;
     border-top: 1px solid #FF6243 !important;
-    background: #FF6243 !important; }
+    background: #FF6243 !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none; }
   .navbar-lb .logo {
     width: 12.250em;
     position: relative;
     z-index: 99; }
-  .navbar-lb .navbar-aling {
-    float: right; }
   .navbar-lb li {
     margin-top: 2.25em; }
   .navbar-lb li a {
     color: #f2f2f2 !important;
     font-family: "Roboto Slab", serif; }
+    @media (max-width: 767px) {
+      .navbar-lb li a {
+        text-align: center; } }
   .navbar-lb li a:hover {
     background-color: transparent !important;
     border-bottom: 3px solid #f2f2f2; }
@@ -82,8 +89,20 @@ p {
   margin: 6em 0; }
   .white-block .video {
     margin-bottom: 3em;
+    width: 540px;
+    height: 300px; }
+  .white-block .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+  .white-block .video-container iframe, .white-block .video-container object, .white-block .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 43vh; }
+    height: 100%; }
   .white-block h2 {
     margin-bottom: 1em;
     color: #37474E; }
@@ -167,6 +186,15 @@ p {
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
       .footer-block .footer-icons {
         padding-left: 116px; } }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      .footer-block .footer-icons {
+        padding: 0 100px 0 160px; } }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      .footer-block .footer-icons {
+        padding: 0 100px 0 210px; } }
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+      .footer-block .footer-icons {
+        padding: 0 140px 0 242px; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .footer-block .footer-icons {
         margin-left: 0;
