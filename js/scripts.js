@@ -1,3 +1,6 @@
+$(document).ready(function(){
+  $('.svg-color').svgInject();
+});
 /*$(function(){
     $('.navbar-lb').data('size','big');
 });

@@ -28,6 +28,26 @@ p {
 .navbar-lb {
   background: $main-color;
   height: 8em;
+  border-color: $main-color;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  margin-bottom: 0px;
+
+  .navbar-toggle {
+    border-color: darken($almost-white, 20%);
+    background: white;
+
+    .icon-bar {
+      background-color: $secondary-color;
+    }
+  }
+
+  .navbar-collapse {
+    border-color: $main-color!important;
+    border-top: 1px solid $main-color!important;
+    background: $main-color!important;
+  }
 
   .logo {
     width: 12.250em;
@@ -40,14 +60,18 @@ p {
     margin-top: 2.25em;
   }
 
-  a {
-    color: $almost-white;
+  li a {
+    color: $almost-white!important;
     font-family: $title-font;
   }
 
-  a:hover {
+  li a:hover {
     background-color: rgba(0, 0, 0, 0)!important;
     border-bottom: 3px solid $almost-white;
+  }
+
+  a img:hover {
+    border-bottom: none;
   }
 }
 
@@ -96,6 +120,8 @@ p {
 
   .video {
     margin-bottom: 3em;
+    width: 100%;
+    height:43vh;
   }
 
   h2 {
@@ -127,6 +153,7 @@ p {
   h3 {
     margin-bottom: 1em;
   }
+
   p {
     font-weight: 300;
     letter-spacing: 1px;
@@ -138,7 +165,7 @@ p {
 
   .btn-lb {
     color: $almost-white;
-    background-color: darken($main-color, 5%);
+    background-color: $main-color;
     //background-color: lighten($main-color, 10%);
     border-radius: 24px;
     -webkit-border-radius: 24px;
@@ -152,6 +179,28 @@ p {
   .btn-lb:hover {
     background-color: lighten($main-color, 10%);
     //background-color: darken($main-color, 30%);
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .feature-1 {
+    mask-image: url(../img/feature-1.svg);
+    -webkit-mask-image: url(../img/feature-1.svg);
+    -moz-mask-image: url(../img/feature-1.svg);
+  }
+
+  .feature-2 {
+    mask-image: url(../img/feature-2.svg);
+    -webkit-mask-box-image: url(../img/feature-2.svg);
+    -moz-mask-box-image: url(../img/feature-2.svg);
+  }
+
+  .feature-3 {
+    mask-image: url(../img/feature-3.svg);
+    -webkit-mask-image: url(../img/feature-3.svg);
+    -moz-mask-image: url(../img/feature-3.svg);
   }
 }
 
@@ -194,11 +243,20 @@ p {
       padding: 0 1em 1em 0;
     }
 
-    img {
+    svg, img {
       width: 3em;
+      fill: $almost-white;
     }
-    svg: hover {
-      fill: black;
+
+    a svg #twitter, a svg #facebook, a svg #instagram, a svg #linkedin {
+      transition: 200ms;
+      transition-timing-function: ease-in-out;
+      -webkit-transition: 200ms;
+      -webkit-transition-timing-function: ease-in-out;
+    }
+
+    a svg:hover #twitter, a svg:hover #facebook, a svg:hover #instagram, a svg:hover #linkedin {
+      fill: $main-color;
     }
   }
 
