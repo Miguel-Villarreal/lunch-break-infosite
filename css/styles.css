@@ -29,7 +29,9 @@ p {
     border-top: 1px solid #FF6243 !important;
     background: #FF6243 !important; }
   .navbar-lb .logo {
-    width: 12.250em; }
+    width: 12.250em;
+    position: relative;
+    z-index: 99; }
   .navbar-lb .navbar-aling {
     float: right; }
   .navbar-lb li {
@@ -64,7 +66,13 @@ p {
     display: block;
     font-family: "Roboto Slab", serif;
     font-weight: 300;
-    padding: 10px 26px; }
+    padding: 10px 26px;
+    white-space: normal; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .main-color-block .btn-lb {
+        border-radius: 44px;
+        -webkit-border-radius: 44px;
+        -moz-border-radius: 44px; } }
   .main-color-block .btn-lb:hover {
     background-color: #ff8d76; }
   .main-color-block .main-image {
@@ -109,7 +117,13 @@ p {
     font-family: "Roboto Slab", serif;
     font-weight: 300;
     margin: 0 auto;
-    padding: 10px 26px; }
+    padding: 10px 26px;
+    white-space: normal; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      .secondary-color-block .btn-lb {
+        border-radius: 44px;
+        -webkit-border-radius: 44px;
+        -moz-border-radius: 44px; } }
   .secondary-color-block .btn-lb:hover {
     background-color: #ff8d76; }
   .secondary-color-block img {
@@ -139,6 +153,10 @@ p {
     color: #f2f2f2; }
   .footer-block .footer-logo img {
     width: 12.250em; }
+    @media (max-width: 767px) {
+      .footer-block .footer-logo img {
+        display: block;
+        margin: 0 auto 2em auto; } }
   .footer-block .footer-icons {
     display: inline;
     float: left; }
@@ -146,6 +164,9 @@ p {
       .footer-block .footer-icons {
         margin-left: 0;
         margin-top: 1em; } }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      .footer-block .footer-icons {
+        padding-left: 116px; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .footer-block .footer-icons {
         margin-left: 0;
@@ -154,6 +175,12 @@ p {
       float: left;
       list-style: none;
       padding: 0 1em 1em 0; }
+      @media (max-width: 767px) {
+        .footer-block .footer-icons li {
+          padding: 0 0.5em 0.5em 0; } }
+    @media (max-width: 767px) {
+      .footer-block .footer-icons li:last-child {
+        padding: 0; } }
     .footer-block .footer-icons svg, .footer-block .footer-icons img {
       width: 3em;
       fill: #f2f2f2; }
