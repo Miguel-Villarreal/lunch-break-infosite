@@ -52,8 +52,35 @@ p {
   .navbar-lb a img:hover {
     border-bottom: none; }
 
+.image-background {
+  position: absolute;
+  right: 0;
+  z-index: 10; }
+  .image-background img {
+    position: relative; }
+    @media only screen and (max-width: 1200px) {
+      .image-background img {
+        width: 600px;
+        top: 50px; } }
+    @media only screen and (max-width: 1024px) {
+      .image-background img {
+        width: 550px;
+        top: 80px; } }
+    @media only screen and (max-width: 991px) {
+      .image-background img {
+        width: 430px;
+        top: 30px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .image-background img {
+        width: 400px;
+        top: 40px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      .image-background img {
+        width: 500px;
+        top: 120px; } }
+
 .main-color-background {
-  background: #FF6243; }
+  background-color: #FF6243; }
   .main-color-background p {
     color: #f2f2f2;
     font-size: 1.5em;
@@ -80,6 +107,11 @@ p {
         border-radius: 44px;
         -webkit-border-radius: 44px;
         -moz-border-radius: 44px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      .main-color-block .btn-lb {
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px; } }
   .main-color-block .btn-lb:hover {
     background-color: #eaeaea; }
   .main-color-block .btn-lb:active {

@@ -85,8 +85,45 @@ p {
   }
 }
 
+.image-background {
+  //background: url('../img/header-image-2.png') no-repeat 50% 0%, ;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+
+  img {
+    position: relative;
+
+    @media only screen and (max-width : 1200px) {
+      width: 600px;
+      top: 50px;
+    }
+
+    @media only screen and (max-width : 1024px) {
+      width: 550px;
+      top: 80px;
+    }
+
+    @media only screen and (max-width: 991px) {
+      width: 430px;
+      top: 30px;
+    }
+    // iPad Mini portrait
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      width: 400px;
+      top: 40px;
+    }
+    // iPad Mini landscape
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+      width: 500px;
+      top: 120px;
+    }
+  }
+}
+
+
 .main-color-background {
-  background: $main-color;
+  background-color: $main-color;
 
   p {
     color: $almost-white;
@@ -118,6 +155,11 @@ p {
       border-radius: 44px;
       -webkit-border-radius: 44px;
       -moz-border-radius: 44px;
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      border-radius: 60px;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
     }
   }
 
