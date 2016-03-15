@@ -160,6 +160,7 @@ p {
       border-radius: 60px;
       -webkit-border-radius: 60px;
       -moz-border-radius: 60px;
+
     }
   }
 
@@ -291,6 +292,10 @@ p {
     -webkit-mask-image: url(../img/feature-3.svg);
     -moz-mask-image: url(../img/feature-3.svg);
   }
+
+  #contact-form {
+    margin-top: 3em;
+  }
 }
 
 //Footer
@@ -395,4 +400,12 @@ p {
       color: darken(#76bd1d, 5%);
     }
   }
+}
+
+.freebirdFormviewerViewFormBanner {
+  height: auto!important;
+}
+
+.freebirdHeaderMast {
+  background-color: none!important;
 }
