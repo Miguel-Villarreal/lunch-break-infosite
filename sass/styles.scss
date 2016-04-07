@@ -93,6 +93,7 @@ p {
 
   img {
     position: relative;
+    top: 80px;
 
     @media only screen and (max-width : 1200px) {
       width: 600px;
@@ -213,8 +214,19 @@ p {
   p {
     color: $text-color;
   }
+
+  h3 {
+    color: $text-color;
+    margin-top: 1.75em;
+    font-weight: 300;
+  }
 }
 
+//How works
+.almost-white-color-background {
+  background: darken($almost-white, 20%);
+  //background: lighten($secondary-color, 20%);
+}
 // Features
 .secondary-color-background {
   background: $secondary-color;
@@ -400,12 +412,4 @@ p {
       color: darken(#76bd1d, 5%);
     }
   }
-}
-
-.freebirdFormviewerViewFormBanner {
-  height: auto!important;
-}
-
-.freebirdHeaderMast {
-  background-color: none!important;
 }
