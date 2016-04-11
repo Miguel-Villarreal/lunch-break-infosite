@@ -3,39 +3,50 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="126 -126 300 300" style="enable-background:new 126 -126 300 300;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#FFD6C3;stroke:#F9836B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#F9836B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{opacity:0.2;fill:#37474E;enable-background:new    ;}
+	.st0{opacity:0.2;enable-background:new    ;}
+	.st1{fill:#37474E;}
+	.st2{fill:#FFD6C3;stroke:#F9836B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#F9836B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{opacity:0.2;fill:#37474E;enable-background:new    ;}
+	.st5{fill:#F9836B;}
+	.st6{fill:#FFFFFF;}
+	.st7{font-family:'RobotoSlab-Light';}
+	.st8{font-size:60px;}
 </style>
 <g>
-	<circle class="st0" cx="276" cy="24" r="112.5"/>
+	<g class="st0">
+		<circle class="st1" cx="276" cy="24" r="112.5"/>
+	</g>
+	<g>
+		<g>
+			<ellipse class="st2" cx="276" cy="42.6" rx="70" ry="49"/>
+			<g>
+				<path class="st3" d="M319.6,42.6c0,16.9-19.5,30.5-43.6,30.5"/>
+				<path class="st3" d="M232.4,42.6c0-16.9,19.5-30.5,43.6-30.5"/>
+				<path class="st3" d="M276,12c24.1,0,43.6,13.6,43.6,30.5"/>
+			</g>
+		</g>
+		<g>
+			<ellipse class="st2" cx="276" cy="24" rx="70" ry="49"/>
+			<g>
+				<path class="st3" d="M319.6,24c0,16.9-19.5,30.5-43.6,30.5"/>
+				<path class="st3" d="M232.4,24c0-16.9,19.5-30.5,43.6-30.5"/>
+				<path class="st3" d="M276-6.5c24.1,0,43.6,13.6,43.6,30.5"/>
+			</g>
+		</g>
+		<g>
+			<ellipse class="st2" cx="276" cy="5.4" rx="70" ry="49"/>
+			<g>
+				<path class="st3" d="M319.6,5.4c0,16.9-19.5,30.5-43.6,30.5"/>
+				<path class="st3" d="M232.4,5.4c0-16.9,19.5-30.5,43.6-30.5"/>
+				<path class="st3" d="M276-25.1c24.1,0,43.6,13.6,43.6,30.5"/>
+			</g>
+		</g>
+	</g>
+	<ellipse class="st4" cx="276" cy="106.6" rx="52" ry="6.2"/>
 </g>
 <g>
-	<g>
-		<ellipse class="st1" cx="276" cy="42.6" rx="70" ry="49"/>
-		<g>
-			<path class="st2" d="M319.6,42.6c0,16.9-19.5,30.5-43.6,30.5"/>
-			<path class="st2" d="M232.4,42.6c0-16.9,19.5-30.5,43.6-30.5"/>
-			<path class="st2" d="M276,12c24.1,0,43.6,13.6,43.6,30.5"/>
-		</g>
-	</g>
-	<g>
-		<ellipse class="st1" cx="276" cy="24" rx="70" ry="49"/>
-		<g>
-			<path class="st2" d="M319.6,24c0,16.9-19.5,30.5-43.6,30.5"/>
-			<path class="st2" d="M232.4,24c0-16.9,19.5-30.5,43.6-30.5"/>
-			<path class="st2" d="M276-6.5c24.1,0,43.6,13.6,43.6,30.5"/>
-		</g>
-	</g>
-	<g>
-		<ellipse class="st1" cx="276" cy="5.4" rx="70" ry="49"/>
-		<g>
-			<path class="st2" d="M319.6,5.4c0,16.9-19.5,30.5-43.6,30.5"/>
-			<path class="st2" d="M232.4,5.4c0-16.9,19.5-30.5,43.6-30.5"/>
-			<path class="st2" d="M276-25.1c24.1,0,43.6,13.6,43.6,30.5"/>
-		</g>
-	</g>
+	<circle class="st5" cx="196.5" cy="-55.5" r="33"/>
+	<text transform="matrix(1 0 0 1 184.2445 -35.5339)" class="st6 st7 st8">1</text>
 </g>
-<ellipse class="st3" cx="276" cy="106.6" rx="52" ry="6.2"/>
 </svg>

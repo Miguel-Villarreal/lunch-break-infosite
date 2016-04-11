@@ -3,26 +3,34 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="126 -126 300 300" style="enable-background:new 126 -126 300 300;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{opacity:0.2;fill:#37474E;enable-background:new    ;}
-	.st2{fill:#FFD6C3;stroke:#F9836B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{opacity:0.2;enable-background:new    ;}
+	.st1{fill:#37474E;}
+	.st2{opacity:0.2;fill:#37474E;enable-background:new    ;}
+	.st3{fill:#FFD6C3;stroke:#F9836B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#F9836B;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'RobotoSlab-Light';}
+	.st7{font-size:60px;}
 </style>
 <g>
-	<g>
-		<circle class="st0" cx="276" cy="24" r="112.5"/>
+	<g class="st0">
+		<circle class="st1" cx="276" cy="24" r="112.5"/>
 	</g>
-	<ellipse class="st1" cx="276" cy="106.6" rx="52" ry="6.2"/>
+	<ellipse class="st2" cx="276" cy="106.6" rx="52" ry="6.2"/>
 	<g>
 		<g>
-			<path class="st2" d="M316.2-29.6L316.2-29.6c-2.4-1.5-5.4-0.8-6.9,1.6l-1.9,2.9c-1.5,2.4-0.8,5.4,1.6,6.9l0,0
+			<path class="st3" d="M316.2-29.6L316.2-29.6c-2.4-1.5-5.4-0.8-6.9,1.6l-1.9,2.9c-1.5,2.4-0.8,5.4,1.6,6.9l0,0
 				c2.4,1.5,5.4,0.8,6.9-1.6l1.9-2.9C319.2-25.1,318.5-28.2,316.2-29.6z"/>
-			<path class="st2" d="M311.8-22.6c-25.6-16-58.5-11.2-78.5,9.9l104.1,65C347.5,25,337.5-6.6,311.8-22.6z"/>
+			<path class="st3" d="M311.8-22.6c-25.6-16-58.5-11.2-78.5,9.9l104.1,65C347.5,25,337.5-6.6,311.8-22.6z"/>
 		</g>
-		<path class="st2" d="M203.5,52.2c-0.9,4.1,15.6,8.2,15.6,12.6h113.8c0-4.4,16.5-8.5,15.6-12.6H203.5z"/>
-		<path class="st2" d="M295.5,42.5c-3,6.2-9.4,0.2-17.8,6.6c-1.5-0.8-5.9-5.3-4.6-10.4s7.2-8.4,13.4-7.4
+		<path class="st3" d="M203.5,52.2c-0.9,4.1,15.6,8.2,15.6,12.6h113.8c0-4.4,16.5-8.5,15.6-12.6C348.5,52.2,203.5,52.2,203.5,52.2z"
+			/>
+		<path class="st3" d="M295.5,42.5c-3,6.2-9.4,0.2-17.8,6.6c-1.5-0.8-5.9-5.3-4.6-10.4s7.2-8.4,13.4-7.4
 			C292.8,32.4,297.5,37.5,295.5,42.5z"/>
-		<path class="st2" d="M256.2,41.8c2.1,6.5,9.2,1.1,16.8,8.4c1.6-0.6,6.5-4.6,6.1-9.7s-6-9-12.2-8.6C260.6,32.1,255,36.6,256.2,41.8
+		<path class="st3" d="M256.2,41.8c2.1,6.5,9.2,1.1,16.8,8.4c1.6-0.6,6.5-4.6,6.1-9.7s-6-9-12.2-8.6C260.6,32.1,255,36.6,256.2,41.8
 			z"/>
 	</g>
 </g>
+<circle class="st4" cx="196.5" cy="-55.5" r="33"/>
+<text transform="matrix(1 0 0 1 181.2445 -35.5339)" class="st5 st6 st7">3</text>
 </svg>
