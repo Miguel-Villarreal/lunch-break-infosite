@@ -95,6 +95,12 @@ p {
       margin: 3em 0 4em 0; } }
   .main-color-block h1, .main-color-block h2 {
     color: #f2f2f2; }
+  .main-color-block p {
+    margin: 1.5em 0 0 0; }
+  .main-color-block p:nth-child(3) {
+    margin: 0.5em 0 0 0; }
+  .main-color-block a {
+    margin-top: 2em; }
   .main-color-block .btn-lb {
     color: #FF6243;
     background-color: #f2f2f2;
