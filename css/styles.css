@@ -56,6 +56,8 @@ p {
     color: #37474E !important; }
   .navbar-lb li a:active {
     color: #b7c6cd !important; }
+  .navbar-lb li a:focus {
+    background-color: transparent !important; }
   .navbar-lb a img:hover {
     border-bottom: none; }
 

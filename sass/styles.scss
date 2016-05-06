@@ -89,6 +89,10 @@ p {
     color: lighten($text-color, 50%)!important;
   }
 
+  li a:focus {
+    background-color: rgba(0, 0, 0, 0)!important;
+  }
+
   a img:hover {
     border-bottom: none;
   }
