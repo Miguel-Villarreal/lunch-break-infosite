@@ -384,9 +384,10 @@ p {
     font-weight: bold;
     list-style-position: outside;
 
-    li{
+    li p{
       color: #333;
       font-weight: normal;
+      padding: 0 0.75rem;
     }
   }
 }

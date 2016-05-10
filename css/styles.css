@@ -261,6 +261,18 @@ p {
   .secondary-color-block #contact-form {
     margin-top: 3em; }
 
+.privacy-content {
+  margin: 3rem 0 6rem 0;
+  text-align: justify; }
+  .privacy-content ol {
+    color: #FF6243;
+    font-weight: bold;
+    list-style-position: outside; }
+    .privacy-content ol li p {
+      color: #333;
+      font-weight: normal;
+      padding: 0 0.75rem; }
+
 .terceary-color-background {
   background: #37474E; }
 
@@ -327,7 +339,7 @@ p {
     margin-top: 3em; }
   .footer-block .innku-link {
     font-size: 0.75em;
-    color: #a6a6a6;
+    color: #a5a5a5;
     margin-top: 10px; }
     .footer-block .innku-link a {
       color: #76bd1d; }
