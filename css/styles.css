@@ -25,7 +25,8 @@ p {
   z-index: 100; }
   .navbar-lb .navbar-toggle {
     border-color: #bfbfbf;
-    background: white; }
+    background: white;
+    margin-top: 30px; }
     .navbar-lb .navbar-toggle .icon-bar {
       background-color: #637076; }
   .navbar-lb .navbar-collapse {
@@ -33,6 +34,7 @@ p {
     border-top: 1px solid #FF6243 !important;
     background: #FF6243 !important;
     box-shadow: none;
+    margin-top: 1.5em;
     -webkit-box-shadow: none;
     -moz-box-shadow: none; }
   .navbar-lb .logo {
@@ -40,7 +42,11 @@ p {
     position: relative;
     z-index: 99; }
   .navbar-lb li {
-    margin-top: 2.25em; }
+    padding-top: 0.75em; }
+    @media (max-width: 767px) {
+      .navbar-lb li {
+        border-bottom: 1px solid white;
+        padding: 1.5em 0; } }
   .navbar-lb li a {
     color: #f2f2f2 !important;
     font-family: "Roboto Slab", serif;

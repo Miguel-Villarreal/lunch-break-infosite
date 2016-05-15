@@ -42,6 +42,7 @@ p {
   .navbar-toggle {
     border-color: darken($almost-white, 20%);
     background: white;
+    margin-top: 30px;
 
     .icon-bar {
       background-color: $secondary-color;
@@ -53,6 +54,7 @@ p {
     border-top: 1px solid $main-color!important;
     background: $main-color!important;
     box-shadow: none;
+    margin-top: 1.5em;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 
@@ -65,7 +67,11 @@ p {
   }
 
   li {
-    margin-top: 2.25em;
+    padding-top: 0.75em;
+    @media (max-width:767px) {
+      border-bottom: 1px solid white;
+      padding: 1.5em 0;
+    }
   }
 
   li a {
