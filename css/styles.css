@@ -300,29 +300,17 @@ p {
         margin: 0 auto 2em auto; } }
   .footer-block .footer-icons {
     display: inline;
-    float: left; }
+    padding: 0; }
     @media (max-width: 767px) {
       .footer-block .footer-icons {
         margin-left: 0;
         margin-top: 1em; } }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-      .footer-block .footer-icons {
-        padding-left: 116px; } }
-    @media only screen and (min-device-width: 414px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-      .footer-block .footer-icons {
-        padding: 0 100px 0 160px; } }
-    @media only screen and (min-device-width: 414px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-      .footer-block .footer-icons {
-        padding: 0 100px 0 210px; } }
-    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-      .footer-block .footer-icons {
-        padding: 0 140px 0 242px; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .footer-block .footer-icons {
         margin-left: 0;
         margin-top: 1em; } }
     .footer-block .footer-icons li {
-      float: left;
+      display: inline;
       list-style: none;
       padding: 0 1em 1em 0; }
       @media (max-width: 767px) {
@@ -345,7 +333,7 @@ p {
     margin-top: 3em; }
   .footer-block .innku-link {
     font-size: 0.75em;
-    color: #a5a5a5;
+    color: #a6a6a6;
     margin-top: 10px; }
     .footer-block .innku-link a {
       color: #76bd1d; }
