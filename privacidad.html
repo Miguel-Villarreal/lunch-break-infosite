@@ -9,12 +9,27 @@
     <meta name="description" content="Aviso de Privacidad de LunchBreak. Come mejor y más saludable en tu trabajo. Te damos diversas opciones por día y te las enviamos directamente a tu oficina.">
     <meta name="author" content="">
 
-    <!-- Apple devices specific -->
+    <!-- Apple devices specific standalone version-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" href="/img/touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="LunchBreak">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script type="text/javascript">
+      if(("standalone" in window.navigator) && window.navigator.standalone) {
+        var noddy, remotes = false;
+        document.addEventListener('click', function(event) {
+          noddy = event.target;
+          while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+            noddy = noddy.parentNode;
+          }
+          if('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
+            event.preventDefault();
+            document.location.href = noddy.href;
+          }
+        },false);
+      }
+    </script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/hover.css" rel="stylesheet" media="all">
