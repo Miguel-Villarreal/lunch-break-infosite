@@ -275,9 +275,30 @@ p {
     font-weight: bold;
     list-style-position: outside; }
     .privacy-content ol li p {
-      color: #333;
+      color: #37474E;
+      font-weight: normal; }
+
+.faq-content {
+  margin: 3rem 0 6rem 0;
+  text-align: justify; }
+  .faq-content .extra {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2em; }
+  .faq-content ol {
+    color: #FF6243;
+    font-weight: 100;
+    font-size: 1.5em;
+    list-style-position: outside; }
+    .faq-content ol li p {
+      color: #37474E;
       font-weight: normal;
-      padding: 0 0.75rem; }
+      font-size: 16px; }
+    .faq-content ol li h3 {
+      color: #37474E;
+      margin-top: 2em;
+      font-weight: 300;
+      text-align: left; }
 
 .terceary-color-background {
   background: #37474E; }

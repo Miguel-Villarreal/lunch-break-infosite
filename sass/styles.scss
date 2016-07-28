@@ -386,14 +386,46 @@ p {
   text-align: justify;
 
   ol{
-    color: #FF6243;
+    color: $main-color;
     font-weight: bold;
     list-style-position: outside;
 
     li p{
-      color: #333;
+      color: $text-color;
       font-weight: normal;
-      padding: 0 0.75rem;
+    }
+  }
+}
+
+//FAQ content
+.faq-content{
+  margin: 3rem 0 6rem 0;
+  text-align: justify;
+
+  .extra{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2em;
+  }
+
+  ol{
+    color: #FF6243;
+    font-weight: 100;
+    font-size: 1.5em;
+    list-style-position: outside;
+
+    li{
+      p{
+        color: $text-color;
+        font-weight: normal;
+        font-size: 16px;
+      }
+      h3{
+        color: $text-color;
+        margin-top: 2em;
+        font-weight: 300;
+        text-align: left;
+      }
     }
   }
 }
