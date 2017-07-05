@@ -1,6 +1,7 @@
 /* sass --watch sass:css */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
 
 $main-color: #FF6243;
 $secondary-color: #637076;
@@ -567,17 +568,27 @@ p {
     }
   }
 
+  a {
+    text-decoration: none;
+  }
+
   #share-twitter {
-    width: 48%;
+    width: 47%;
     .st1{fill:#FFFFFF;}
-    .st2{font-family:'RobotoCondensed-Light';}
+    .st2 {
+      font-family:'Roboto Condensed';
+      font-weight: 300;
+    }
     .st3{font-size:22px;}
   }
 
   #share-facebook {
-    width: 48%;
+    width: 47%;
   	.st1{fill:#FFFFFF;}
-  	.st2{font-family:'RobotoCondensed-Light';}
+  	.st2{
+      font-family:'Roboto Condensed';
+      font-weight: 300;
+    }
   	.st3{font-size:22px;}
   }
 

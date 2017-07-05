@@ -1,6 +1,7 @@
 /* sass --watch sass:css */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
 body {
   height: 100%;
   width: 100%; }
@@ -399,20 +400,24 @@ p {
   @media (max-width: 767px) {
     .share-buttons li:last-child {
       padding: 0; } }
+  .share-buttons a {
+    text-decoration: none; }
   .share-buttons #share-twitter {
-    width: 48%; }
+    width: 47%; }
     .share-buttons #share-twitter .st1 {
       fill: #FFFFFF; }
     .share-buttons #share-twitter .st2 {
-      font-family: 'RobotoCondensed-Light'; }
+      font-family: 'Roboto Condensed';
+      font-weight: 300; }
     .share-buttons #share-twitter .st3 {
       font-size: 22px; }
   .share-buttons #share-facebook {
-    width: 48%; }
+    width: 47%; }
     .share-buttons #share-facebook .st1 {
       fill: #FFFFFF; }
     .share-buttons #share-facebook .st2 {
-      font-family: 'RobotoCondensed-Light'; }
+      font-family: 'Roboto Condensed';
+      font-weight: 300; }
     .share-buttons #share-facebook .st3 {
       font-size: 22px; }
   .share-buttons #share-twitter-background {
