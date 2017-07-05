@@ -486,6 +486,10 @@ p {
       }
     }
 
+    a {
+      text-decoration: none;
+    }
+
     svg, img {
       width: 3em;
       fill: $almost-white;
