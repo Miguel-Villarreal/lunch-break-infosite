@@ -361,4 +361,72 @@ p {
     .footer-block .innku-link a:hover {
       color: #68a71a; }
 
+/* Thanks page*/
+.thanks-main-image {
+  padding-top: 2em; }
+  @media screen and (max-width: 767px) {
+    .thanks-main-image {
+      margin: 1em 0; } }
+
+.thanks-main-message {
+  padding-top: 1em; }
+  @media screen and (max-width: 767px) {
+    .thanks-main-message {
+      margin: 0.5em 0; } }
+
+.thanks-share-buttons {
+  padding-top: 1em;
+  margin-bottom: 2em; }
+
+.share-buttons {
+  display: inline;
+  padding: 0; }
+  @media (max-width: 767px) {
+    .share-buttons {
+      margin-left: 0;
+      margin-top: 1em; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .share-buttons {
+      margin-left: 0;
+      margin-top: 1em; } }
+  .share-buttons li {
+    display: inline;
+    list-style: none;
+    padding: 0 1em 0 0; }
+    @media (max-width: 767px) {
+      .share-buttons li {
+        padding: 0 0.5em 0.5em 0; } }
+  @media (max-width: 767px) {
+    .share-buttons li:last-child {
+      padding: 0; } }
+  .share-buttons #share-twitter {
+    width: 48%; }
+    .share-buttons #share-twitter .st1 {
+      fill: #FFFFFF; }
+    .share-buttons #share-twitter .st2 {
+      font-family: 'RobotoCondensed-Light'; }
+    .share-buttons #share-twitter .st3 {
+      font-size: 22px; }
+  .share-buttons #share-facebook {
+    width: 48%; }
+    .share-buttons #share-facebook .st1 {
+      fill: #FFFFFF; }
+    .share-buttons #share-facebook .st2 {
+      font-family: 'RobotoCondensed-Light'; }
+    .share-buttons #share-facebook .st3 {
+      font-size: 22px; }
+  .share-buttons #share-twitter-background {
+    fill: #22B1FF; }
+  .share-buttons #share-facebook-background {
+    fill: #3F5AA2; }
+  .share-buttons a svg #share-twitter-background, .share-buttons a svg #share-facebook {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out; }
+  .share-buttons a svg:hover #share-twitter-background {
+    fill: #005888; }
+  .share-buttons a svg:hover #share-facebook-background {
+    fill: #141d34; }
+
 /*# sourceMappingURL=styles.css.map */
